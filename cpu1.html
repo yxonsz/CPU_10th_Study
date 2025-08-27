@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CPU HomeWork </title>
+    <style>
+       body {
+            background-color:#f2f2f2;
+            font-family: Arial;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            height: 100vh; 
+        }
+
+        .card {
+            width:500px;
+            background-color:white;
+            border-radius:10px;
+            box-shadow: 0 2px 4px;
+            text-align:center;
+            padding: 25px;
+        }
+
+        .card-header {
+            display:flex;
+            align-items:center;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .header-section {
+            display:flex;
+            align-items:center;
+            padding-bottom:25px;
+        }
+
+        .profile-image {
+            width:100px;
+            height:100px;
+            border-radius:50%;
+            object-fit:cover;
+            margin-right:20px;
+        }
+
+        .main-info {
+            text-align:left;
+         }
+
+        h2 {
+            margin:0;
+            font-size:24px;
+        }
+
+        .job {
+            color:#555;
+            margin:5px 0;
+        }
+
+        .location-container {
+            display:flex;
+            align-items:center;
+            gap:5px;
+            margin-top:0;
+            color:#58b0ef
+        }
+
+        .location-icon {
+            width:16px;
+            height:20px;
+        }
+
+
+        .contact-button {
+            display:inline-block; 
+            background-color:#5e9cff;
+            color:white; 
+            border:none; 
+            margin:2px;
+            padding:10px 20px; 
+            border-radius:5px; 
+            text-decoration:none; 
+            cursor:default;
+            font-size:14px;
+        }
+
+        hr {
+            border:0;
+            height:1px;
+            background-color:#e0e0e0;
+            margin:20px 0;
+        }
+
+        .info-section {
+            display:flex; 
+            justify-content:center; 
+            gap:50px;
+        }
+
+        .info-group p {
+            margin:0;
+            padding:5px 0; 
+            font-size:16px;
+            line-height:1.5;
+        }
+
+        .info-group {
+            text-align:left;
+            font-weight:bold; 
+            color:#555;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="card-header">
+            <img src="KakaoTalk_20250820_212857675.jpg" alt="프로필 사진" class="profile-image">
+            <div class="main-info">
+            <h2>Lee YeonSu</h2>
+            <p class="job"> Front-end Designer</p>
+            <div class="location-container">
+                <img src="KakaoTalk_20250820_191517686.png" alt="위치 아이콘" class="location-icon">
+                <span class="location-text">서울 강동구</span>
+            </div>
+            <button class="contact-button">Contact</button>
+            </div>
+        </div>
+        <hr>
+        <div class="info-section">
+    <div class="info-group">
+        <p>Location</p>
+        <p>Age</p>
+        <p>Experience</p>
+        <p>School</p>
+    </div>
+    <div class="info-group">
+        <p>서울 강동구</p>
+        <p>09년생</p>
+        <p>신입</p>
+        <p>미림마이스터고</p>
+    </div>
+</div>
+</body>
+</html>
